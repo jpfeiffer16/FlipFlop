@@ -2,9 +2,6 @@
   "port": 9000,
   "protocol": "http",
   "hosts": {
-    "microstrategy.local": "dev1.microstrategy.com",
-    "sitecompare.test": "sitecompare.local",
-    // "smenet.local": "dev1.smenet.org"
-    "smenet.local": "smenet.org"
+    "test.local": "dev1.test.com"
   }
 }
