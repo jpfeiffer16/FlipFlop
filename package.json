@@ -1,0 +1,20 @@
+{
+  "name": "flipflop",
+  "version": "0.1.0",
+  "description": "Local IIS proxy",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "./node_modules/.bin/nodemon app.js"
+  },
+  "author": "Joe Pfeiffer",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^2.9.0",
+    "express": "^4.13.4",
+    "http-proxy": "^1.13.2",
+    "ngrok": "^2.1.6",
+    "nodemon": "^1.11.0",
+    "request": "^2.69.0"
+  }
+}
